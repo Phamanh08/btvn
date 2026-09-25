@@ -1,0 +1,141 @@
+    <!DOCTYPE html>
+    <html lang="vi">
+        <head>
+        <meta charset="UTF-8">
+        <title> Trang cá nhân </title>
+        <style>
+            table, th, td {
+    border: 1px solid black; 
+    }
+
+    table {
+    border-collapse: collapse; 
+    width: 100%;
+    }
+
+    th, td {
+    padding: 8px; 
+    text-align: left;
+    }
+        </style>
+        </head> 
+        <body> 
+            <header>
+            <h1> TRANG THÔNG TIN CÁ NHÂN CỦA TÔI</h1>
+            <P><strong>Họ và tên:</strong>Phạm Hoàng Anh</P>
+            <img src="assets/Screenshot 2026-09-12 001359.png"
+                alt="Ảnh đại hiện"
+                width="100"
+                height="100">
+            </header>
+            <nav>
+                <a href="#gioi_thieu">Giới thiệu</a>
+                <a href="#so_thich">Sở thích</a>
+                <a href="#hoc_tap">Học tập</a>
+                <a href="#du_an">Dự án</a>
+                <a href="#lien_he">Liên hệ</a>
+            </nav>
+            <section id="gioi_thieu">
+                <h2>Giới thiệu bản thân</h2>
+                <p><strong>Họ tên:</strong>Phạm Hoàng Anh</p>
+                <p><strong>Ngày sinh:</strong>06/08/2008</p>
+                <p><strong>Ngành/Lớp:</strong>CNTT - 20-02</p>
+                <p>Xin chào! Em là <em>sinh viên năm nhất</em> ngành công nghệ thông tin. Đang học <strong>thầy Bảo</strong> lập trình web </p>
+            </section>
+            <section id="so_thich">
+                <h2 id="so_thich">Sở thích cá nhân</h2>
+                <ul>
+                    <li>Ăn uống</li>
+                    <li>Lập trình</li>
+                    <li>Đánh cầu lông</li>
+                    <li>Chơi game</li>
+                    <li>Công nghệ</li>
+                </ul>
+            </section>
+            <section id="hoc_tap">
+                <h2>Thời khóa biểu</h2>
+                <caption>Thời khóa biểu năm nhất</caption>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Thứ 2</th>
+                            <th>Thứ 3</th>
+                            <th>Thứ 4</th>
+                            <th>Thứ 5</th>
+                            <th>Thứ 6</th>
+                            <th>Thứ 7</th>
+                            <th>Chủ nhật</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sáng</td>
+                            <td>Tiếng anh</td>
+                            <td>Nhập môn CNTT</td>
+                            <td>Kĩ năng mềm</td>
+                            <td>Hệ thống máy tính</td>
+                            <td>Thiết kế web</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Chiều</td>
+                            <td>Nhập môn CNTT</td>
+                            <td>TIếng anh</td>
+                            <td>Kĩ năng mềm</td>
+                            <td>Hệ thống máy tính</td>
+                            <td></td>
+                            <td>Thiết kế web</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="du_an">
+                <h2>Sản phẩm đã làm</h2>
+            <article>
+                <a href="file:///D:/b%C3%A0i%20h%E1%BB%8Dc/b%C3%A0i%20h%E1%BB%8Dc%202/index.html"
+                target="_blank">
+                <h3>Website giới thiệu bản thân</h3>
+            </a>
+            <P> Website được xây dựng bởi HTML5.</P>
+            </article>
+            <a href="https://www.facebook.com/pham.hoang.anh.337544?locale=vi_VN"
+            target="_blank">
+            <p>Trang facebook của tôi</p>
+            </a>
+            <section id="lien_he">
+                    <form>
+            <label for="name">Họ tên:</label>
+            <input type="text"
+                id="name"
+                name="name"
+                required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email"
+                id="email"
+                name="email"
+                required>
+
+            <br><br>
+
+            <label for="message">Lời nhắn:</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required>
+            </textarea>
+
+            <br><br>
+
+            <button type="submit">
+                Gửi lời nhắn
+            </button>
+        </form>
+            </section>     
+        </body>
+    </html>
